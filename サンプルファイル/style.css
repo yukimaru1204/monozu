@@ -1,0 +1,58 @@
+body{
+    background: url('176474_l.jpg') ;
+    font-size: 40px;
+    text-align: center;
+    
+}
+div{
+    margin: 15px;
+}
+.result{
+    background: #FFFFFF;
+    display: inline-block;
+    height: 200px;
+    line-height: 60px;
+    width: 550px; 
+}
+button{
+    display: inline-block;
+    padding: 1.5em 3em;
+    text-decoration: none;
+    background: #f7f9ff;/*ボタン色*/
+    color: rgb(255, 255, 255);
+    border-bottom: solid 4px #8e95a8;
+    border-radius: 3px;
+}
+.button:active {
+    /*ボタンを押したとき*/
+    -webkit-transform: translateY(4px);
+    transform: translateY(4px);/*下に動く*/
+    box-shadow: 0px 0px 1px rgba(240, 220, 220, 0.2), 0.2);/*影を小さく*/
+    border-bottom: none;
+  }
+.start{
+    background: rgb(52, 63, 124);
+}    .stop{
+    background: rgb(0, 90, 30);
+}
+body {
+    /* 画像ファイルの指定 */
+    background-image: url('176474_l.jpg');
+     
+    /* 画像を常に天地左右の中央に配置 */
+    background-position: center center;
+     
+    /* 画像をタイル状に繰り返し表示しない */
+    background-repeat: no-repeat;
+     
+    /* コンテンツの高さが画像の高さより大きい時、動かないように固定 */
+    background-attachment: fixed;
+     
+    /* 表示するコンテナの大きさに基づいて、背景画像を調整 */
+    background-size: cover;
+     
+    /* 背景画像が読み込まれる前に表示される背景のカラー */
+    background-color: #464646;
+  }
+
+  
